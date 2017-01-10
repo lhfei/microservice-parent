@@ -1,0 +1,50 @@
+{
+	"name": "notebook-app",
+	"version": "1.0.0",
+	"license": "MIT",
+	"authors": [
+		"Hefei Li"
+	],
+	"description": "Notebook applicaton.",
+	"main": "app.js",
+	"keywords": [
+		"Notebook",
+		"Spring",
+		"Boot",
+		"spring-boot"
+	],
+	"homepage": "",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+		"source",
+		"spec",
+		"fonts",
+		"grunt",
+		"js",
+		"less",
+		"nuget",
+		".bowerrc",
+		".gitignore",
+		".jshintignore",
+		".jshintrc",
+		"bower.json",
+		"gruntfile.js",
+		"package.json",
+		"README.md"
+	],
+	"install": {
+		"path": {
+			"js": "js/",
+			"css": "css/"
+		}
+	},
+	"devDependencies": {
+		"bootstrap": "^3.3.7",
+		"angular": "^1.6.0"
+	}
+}

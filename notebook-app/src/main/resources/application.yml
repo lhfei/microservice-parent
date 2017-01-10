@@ -1,0 +1,28 @@
+server:
+  port: 60011
+
+spring:
+  application:
+    name: Notebook
+
+  data:
+    mongodb:
+      database: notebook_repo
+      host: 192.168.177.79
+      port: 27017
+      password:
+
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    
+  freemarker:
+    charset: UTF-8
+    prefix: classpath:/templates/ftl
+    suffix: .ftl
+    enabled: true
+  
+
+
+      
